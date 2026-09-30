@@ -100,7 +100,7 @@ model =EfficientConvulationNeuralNetwork()
 # loading the learned parameteres.
 model.load_state_dict(
     torch.load(
-        "cnn2.pth",
+        "cnn3.pth",
         map_location=torch.device("cpu")
     )
 )
