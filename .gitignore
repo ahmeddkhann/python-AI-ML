@@ -1,1 +1,9 @@
+# Virtual environment
 .venv/
+
+# PyTorch / CIFAR-10 datasets
+pytorch/data/
+
+# Python cache
+__pycache__/
+*.pyc
